@@ -25,3 +25,50 @@ while(initialNumber<=98){
  }
 
 
+ //5.Difference between while and for loop
+ //Ans:The major difference between for loop and while loop is that in the case of for loop the number of iterations is known whereas in the case of the while loop number of iterations is unknown and the statement will run until the condition is proved false.
+
+ //6.Declare a array and display them as output
+ console.log('Display array element with for loop');
+ var arr1=["AA", "BB", "CC", "DD"];
+ for(i=0;i<arr1.length;i++){
+    var valueOFArray=arr1[i];
+    console.log(valueOFArray);
+ }
+
+ //7.Display a array and display them with while loop
+ console.log('Display a array and display them with while loop');
+ var arr2=['Samsung', 'Nokia','Poko', 'Narzo', 'Iphone']
+ var arr2Element=0;
+ while(arr2Element<arr2.length){
+    console.log(arr2[arr2Element]);
+    arr2Element++;
+ }
+
+
+ //8.Run a loop from 30 to 86 this loop will stop if the values get higher than 50
+ console.log('Run a loop from 30 to 86 this loop will stop if the values get higher than 50');
+ for(i=30;i<=86;i++){
+    
+    if(i>50){
+        break;
+    }
+    console.log(i);
+    
+ } 
+
+
+ //9.write down the price of your books and display the prices that are lower then 200
+  console.log('write down the price of your books and display the prices that are lower then 200');
+ var priceOfBooks=[200,456,34,876,120,78,145,900,50,199,654];
+ console.log(priceOfBooks);
+ for(i=0;i<priceOfBooks.length;i++){
+    
+    if(priceOfBooks[i]>=199){
+        continue;
+    }
+    console.log(priceOfBooks[i]);
+    
+ }
+
+
