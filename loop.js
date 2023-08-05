@@ -64,7 +64,7 @@ while(initialNumber<=98){
  console.log(priceOfBooks);
  for(i=0;i<priceOfBooks.length;i++){
     
-    if(priceOfBooks[i]>=199){
+    if(priceOfBooks[i]>199){
         continue;
     }
     console.log(priceOfBooks[i]);
